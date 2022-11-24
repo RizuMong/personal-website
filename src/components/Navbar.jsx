@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-start ml-0 sm:ml-0 md:ml-7 lg:ml-14 xl:ml-20">
+    <nav className="navbar sticky top-0 bg-white">
+      <div className="navbar-start ml-0 sm:ml-0 md:ml-7 lg:ml-12 xl:ml-20">
         <div className="dropdown">
           <label
             tabIndex={0}
@@ -27,7 +27,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="dropdown-content menu mt-2 shadow rounded-lg w-52"
+            className="dropdown-content menu ml-3 mt-2 shadow rounded-lg w-52"
           >
             <li className="font-medium pl-3 py-2 text-base text-secondary hover:bg-slate-100">
               Home
@@ -59,7 +59,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end mr-2 sm:mr-4 md:mr-7 lg:mr-14 xl:mr-20">
+      <div className="navbar-end mr-2 sm:mr-4 md:mr-7 lg:mr-12 xl:mr-20">
         <button className="bg-primary text-white text-base font-medium py-2 px-5 rounded-xl">
           Contact Me
         </button>
