@@ -7,7 +7,7 @@ import Instagram from "../assets/instagram.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary w-full fixed bottom-0 ">
+    <footer className="bg-secondary w-full mt-28">
       <div className="ml-4 sm:ml-4 md:ml-7 lg:ml-12 xl:ml-20 pt-10 pb-16">
         <h3 className="font-bold text-2xl text-primary">Get in touch!</h3>
         <p className="text-base text-white font-normal mt-5 mb-7">
@@ -15,9 +15,9 @@ const Footer = () => {
             For business inquiries please email to:
           </span>{" "}
           <a
-            className="underline decoration-orange-500"
+            className="no-underline hover:underline decoration-primary"
             href="mailto:rizkihaddiprayoga@gmail.com"
-            target="_blank"
+            target="_blank" 
           >
             rizkihaddiprayoga@gmail.com
           </a>
