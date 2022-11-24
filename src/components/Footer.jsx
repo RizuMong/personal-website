@@ -14,7 +14,9 @@ const Footer = () => {
           <span className="text-[#CCCCCC]">
             For business inquiries please email to:
           </span>{" "}
-          rizkihaddiprayoga@gmail.com
+          <a href="mailto:rizkihaddiprayoga@gmail.com" target="_blank">
+            rizkihaddiprayoga@gmail.com
+          </a>
         </p>
         <div className="flex gap-6">
           <a href="https://www.linkedin.com/in/rizkihaddiprayoga/" target="_blank">
