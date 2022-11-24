@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-start ml-2 sm:ml-4 md:ml-7 lg:ml-14 xl:ml-20">
+      <div className="navbar-start ml-0 sm:ml-0 md:ml-7 lg:ml-14 xl:ml-20">
         <div className="dropdown">
           <label
             tabIndex={0}
