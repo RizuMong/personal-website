@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="bg-secondary">
       <div className="ml-4 sm:ml-4 md:ml-7 lg:ml-12 xl:ml-20 pt-10 pb-16">
         <h3 className="font-bold text-2xl text-primary">Get in touch!</h3>
-        <p className="text-[15px] lg:text-base xl:text-base text-white font-normal mt-5 mb-7">
+        <p className="text-base text-white font-normal mt-5 mb-7">
           <span className="text-[#CCCCCC]">
             For business inquiries please email to:
           </span>{" "}
