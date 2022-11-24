@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="grid lg:grid-cols-2 md:grid-cols-2 mt-10 md:mt-14 lg:mt-20 xl:mt-20 place-items-center items-center">
       <img
-        className="w-[320px] mb-10 md:hidden lg:hidden xl:hidden"
+        className="w-[300px] mb-10 md:hidden lg:hidden xl:hidden"
         src={imgHero}
         alt="Image Hero"
       />
@@ -23,9 +23,11 @@ const Hero = () => {
           creating engaging UI, bringing products to life.
         </p>
         <div className="flex">
-          <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl">
-            Hire Me
-          </button>
+          <a href="mailto:rizkihaddiprayoga@gmail.com">
+            <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl">
+              Hire Me
+            </button>
+          </a>
           <a href={cv} download>
             <button className="text-primary font-medium underline ml-6 py-2">
               Download CV
