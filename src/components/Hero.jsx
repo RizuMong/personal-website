@@ -29,6 +29,7 @@ const Hero = () => {
           </a>
           <a
             href="https://drive.google.com/file/d/1nkctyD-LuDY7EqCWGJKxzjReWlknfMxZ/view?usp=share_link"
+            target="_blank"
             download
           >
             <button className="text-primary font-medium underline ml-6 py-2">
