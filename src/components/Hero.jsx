@@ -1,6 +1,5 @@
 import React from "react";
 
-import cv from "../assets/resume.pdf";
 import imgHero from "../assets/img_hero.png";
 
 const Hero = () => {
@@ -11,7 +10,7 @@ const Hero = () => {
         src={imgHero}
         alt="Image Hero"
       />
-      <div className="ml-4 md:ml-8 lg:ml-24 xl:ml-28">
+      <div className="ml-4 md:ml-8 lg:ml-24 xl:ml-36">
         <h2 className="font-extrabold text-secondary text-2xl md:text-2xl lg:text-[28px] xl:text-4xl">
           Hi! I’m Rizki Haddi Prayoga. <br /> A{" "}
           <span className="underline decoration-4 underline-offset-4 decoration-primary">
@@ -28,7 +27,10 @@ const Hero = () => {
               Hire Me
             </button>
           </a>
-          <a href={cv} download>
+          <a
+            href="https://drive.google.com/file/d/1nkctyD-LuDY7EqCWGJKxzjReWlknfMxZ/view?usp=share_link"
+            download
+          >
             <button className="text-primary font-medium underline ml-6 py-2">
               Download CV
             </button>
