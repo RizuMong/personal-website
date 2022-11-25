@@ -11,19 +11,19 @@ const Hero = () => {
         alt="Image Hero"
       />
       <div className="ml-4 md:ml-8 lg:ml-24 xl:ml-36">
-        <h2 className="font-extrabold text-secondary text-2xl md:text-2xl lg:text-[28px] xl:text-4xl">
+        <h2 className="font-extrabold text-secondary text-2xl md:text-2xl lg:text-[28px] xl:text-4xl selection:bg-orange-400">
           Hi! I’m Rizki Haddi Prayoga. <br /> A{" "}
           <span className="underline decoration-4 underline-offset-4 decoration-primary">
             Frontend Developer.
           </span>
         </h2>
-        <p className="font-medium text-sm md:text-xs lg:text-sm xl:text-lg text-[#666666] mt-7 mb-12">
+        <p className="font-medium text-sm md:text-xs lg:text-sm xl:text-lg text-[#666666] mt-7 mb-12 selection:bg-orange-400 selection:text-white">
           I’m also a UI designer and general doodler with a keen eye for
           creating engaging UI, bringing products to life.
         </p>
         <div className="flex">
           <a href="mailto:rizkihaddiprayoga@gmail.com">
-            <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl">
+            <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl hover:scale-105">
               Hire Me
             </button>
           </a>
@@ -32,7 +32,7 @@ const Hero = () => {
             target="_blank"
             download
           >
-            <button className="text-primary font-medium underline ml-6 py-2">
+            <button className="text-primary font-medium underline ml-6 py-2 hover:scale-105">
               Download CV
             </button>
           </a>

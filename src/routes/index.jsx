@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { ThemeContext } from "../utils/context";
 
-import Home from "../pages/Index";
+import Home from "../pages";
 import Detail from "../pages/Detail";
 
 const Index = () => {

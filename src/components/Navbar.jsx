@@ -61,7 +61,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end mr-2 sm:mr-4 md:mr-7 lg:mr-12 xl:mr-20">
         <a href="https://wa.me/6285797556102">
-          <button className="bg-white border border-primary text-primary text-base font-medium py-2 px-5 rounded-xl">
+          <button className="bg-white border border-primary text-primary text-base font-medium py-2 px-5 rounded-xl hover:scale-105">
             Contact Me
           </button>
         </a>

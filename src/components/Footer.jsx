@@ -9,15 +9,17 @@ const Footer = () => {
   return (
     <footer className="bg-secondary w-full mt-28">
       <div className="ml-4 sm:ml-4 md:ml-7 lg:ml-12 xl:ml-20 pt-10 pb-16">
-        <h3 className="font-bold text-2xl text-primary">Get in touch!</h3>
-        <p className="text-base text-white font-normal mt-5 mb-7">
+        <h3 className="font-bold text-2xl text-primary selection:bg-orange-400 selection:text-white">
+          Get in touch!
+        </h3>
+        <p className="text-base text-white font-normal mt-5 mb-7 selection:bg-orange-400 selection:text-white">
           <span className="text-[#CCCCCC]">
             For business inquiries please email to:
           </span>{" "}
           <a
             className="no-underline hover:underline decoration-primary"
             href="mailto:rizkihaddiprayoga@gmail.com"
-            target="_blank" 
+            target="_blank"
           >
             rizkihaddiprayoga@gmail.com
           </a>
@@ -27,16 +29,32 @@ const Footer = () => {
             href="https://www.linkedin.com/in/rizkihaddiprayoga/"
             target="_blank"
           >
-            <img className="w-6" src={LinkedIn} alt="Icon LinkedIn" />
+            <img
+              className="w-6 hover:scale-110"
+              src={LinkedIn}
+              alt="Icon LinkedIn"
+            />
           </a>
           <a href="https://github.com/RizuMong" target="_blank">
-            <img className="w-6" src={Github} alt="Icon Github" />
+            <img
+              className="w-6 hover:scale-110"
+              src={Github}
+              alt="Icon Github"
+            />
           </a>
           <a href="https://dribbble.com/RizkiHaddi" target="_blank">
-            <img className="w-6" src={Dribble} alt="Icon Dribble" />
+            <img
+              className="w-6 hover:scale-110"
+              src={Dribble}
+              alt="Icon Dribble"
+            />
           </a>
           <a href="https://www.instagram.com/rizu.design/" target="_blank">
-            <img className="w-6" src={Instagram} alt="Icon Dribble" />
+            <img
+              className="w-6 hover:scale-110"
+              src={Instagram}
+              alt="Icon Dribble"
+            />
           </a>
         </div>
       </div>
