@@ -20,6 +20,9 @@ const Index = () => {
         <CardProject />
         <CardProject />
       </div>
+      <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl mx-auto block mt-5 md:mt-12 lg:mt-14 xl:mt-14 hover:scale-105">
+        All Projects
+      </button>
     </Layout>
   );
 };

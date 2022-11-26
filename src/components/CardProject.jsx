@@ -21,7 +21,7 @@ const CardProject = () => {
           </p>
         </div>
         <a href="https://github.com/RizuMong/guntour" target="_blank">
-          <img className="mt-4" src={CardIcon} alt="Card Icon" />
+          <img className="mt-4 hover:scale-110" src={CardIcon} alt="Card Icon" />
         </a>
       </div>
     </div>
