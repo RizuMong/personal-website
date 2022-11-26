@@ -8,7 +8,7 @@ const CardProject = () => {
     <div className="mb-10 md:mb-0 lg:mb-0 xl:mb-0">
       <a href="https://github.com/RizuMong/guntour" target="_blank">
         <img
-          className="w-80 h-60 md:h-[160px] lg:h-[204px] lg:w-72 xl:w-80 xl:h-60 cursor-pointer"
+          className="w-80 h-60 md:h-[160px] lg:h-[204px] lg:w-72 xl:w-80 xl:h-60 hover:scale-95 hover:shadow-lg hover:shadow-orange-200 cursor-pointer"
           src={ImgCard}
           alt="Card Image"
         />
