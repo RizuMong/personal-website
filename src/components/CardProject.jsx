@@ -6,11 +6,13 @@ import CardIcon from "../assets/card_icon.svg";
 const CardProject = () => {
   return (
     <div className="mb-10 md:mb-0 lg:mb-0 xl:mb-0">
-      <img
-        className="w-80 h-60 md:h-[160px] lg:h-[204px] lg:w-72 xl:w-80 xl:h-60"
-        src={ImgCard}
-        alt="Card Image"
-      />
+      <a href="https://github.com/RizuMong/guntour" target="_blank">
+        <img
+          className="w-80 h-60 md:h-[160px] lg:h-[204px] lg:w-72 xl:w-80 xl:h-60 cursor-pointer"
+          src={ImgCard}
+          alt="Card Image"
+        />
+      </a>
       <div className="flex justify-between items-center">
         <div>
           <h5 className="font-bold text-xl text-secondary mt-4 mb-2">
@@ -21,7 +23,11 @@ const CardProject = () => {
           </p>
         </div>
         <a href="https://github.com/RizuMong/guntour" target="_blank">
-          <img className="mt-4 hover:scale-110" src={CardIcon} alt="Card Icon" />
+          <img
+            className="mt-4 hover:scale-110"
+            src={CardIcon}
+            alt="Card Icon"
+          />
         </a>
       </div>
     </div>
