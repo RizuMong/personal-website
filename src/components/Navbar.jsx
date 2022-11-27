@@ -41,20 +41,20 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/">
-          <h5 className="md:ml-3 md:flex lg:flex xl:flex font-bold text-2xl text-secondary">
+          <h5 className="md:ml-3 md:flex lg:flex xl:flex font-bold text-2xl text-secondary transition hover:scale-105">
             RHP<span className="text-primary">.</span>
           </h5>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal gap-12">
-          <li className="font-semibold text-base text-secondary cursor-pointer">
+          <li className="font-semibold text-base text-secondary transition hover:text-primary hover:scale-105 cursor-pointer">
             Home
           </li>
-          <li className="font-semibold text-base text-secondary cursor-pointer">
+          <li className="font-semibold text-base text-secondary transition hover:text-primary hover:scale-105 cursor-pointer">
             Project
           </li>
-          <li className="font-semibold text-base text-secondary cursor-pointer">
+          <li className="font-semibold text-base text-secondary transition hover:text-primary hover:scale-105 cursor-pointer">
             Services
           </li>
         </ul>

@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
       </div>
       <img
-        className="md:w-64 lg:w-72 xl:w-80 hidden md:flex lg:flex xl:flex"
+        className="md:w-64 lg:w-72 xl:w-80 hidden md:flex lg:flex xl:flex hover:animate-pulse"
         src={imgHero}
         alt="Image Hero"
       />
