@@ -17,7 +17,7 @@ const Footer = () => {
             For business inquiries please email to:
           </span>{" "}
           <a
-            className="no-underline hover:underline decoration-primary"
+            className="no-underline transition hover:underline decoration-primary"
             href="mailto:rizkihaddiprayoga@gmail.com"
             target="_blank"
           >
@@ -30,28 +30,28 @@ const Footer = () => {
             target="_blank"
           >
             <img
-              className="w-6 hover:scale-110"
+              className="w-6 transition hover:scale-125"
               src={LinkedIn}
               alt="Icon LinkedIn"
             />
           </a>
           <a href="https://github.com/RizuMong" target="_blank">
             <img
-              className="w-6 hover:scale-110"
+              className="w-6 transition hover:scale-125"
               src={Github}
               alt="Icon Github"
             />
           </a>
           <a href="https://dribbble.com/RizkiHaddi" target="_blank">
             <img
-              className="w-6 hover:scale-110"
+              className="w-6 transition hover:scale-125"
               src={Dribble}
               alt="Icon Dribble"
             />
           </a>
           <a href="https://www.instagram.com/rizu.design/" target="_blank">
             <img
-              className="w-6 hover:scale-110"
+              className="w-6 transition hover:scale-125"
               src={Instagram}
               alt="Icon Dribble"
             />

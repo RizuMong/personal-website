@@ -23,7 +23,7 @@ const Hero = () => {
         </p>
         <div className="flex">
           <a href="mailto:rizkihaddiprayoga@gmail.com">
-            <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl hover:scale-105">
+            <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl transition hover:scale-110">
               Hire Me
             </button>
           </a>
@@ -32,7 +32,7 @@ const Hero = () => {
             target="_blank"
             download
           >
-            <button className="text-primary font-medium underline ml-6 py-2 hover:scale-105">
+            <button className="text-primary font-medium underline ml-6 py-2 transition hover:scale-105">
               Download CV
             </button>
           </a>
