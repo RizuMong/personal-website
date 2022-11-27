@@ -5,6 +5,8 @@ import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import CardProject from "../components/CardProject";
 
+import { data } from "../assets/data/project";
+
 const Index = () => {
   return (
     <Layout>
@@ -16,9 +18,15 @@ const Index = () => {
         </span>
       </header>
       <div className="grid md:grid-cols-3 grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:mx-8 lg:mx-20 xl:mx-28 md:gap-6 lg:gap-9 justify-items-center">
-        <CardProject />
-        <CardProject />
-        <CardProject />
+        {data.map((project) => (
+          <CardProject
+            key={project.id}
+            src={project.img}
+            title={project.title}
+            detail={project.detail}
+            link={project.link_project}
+          />
+        ))}
       </div>
       <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl mx-auto block mt-5 transition md:mt-12 lg:mt-14 xl:mt-14 hover:scale-110">
         All Projects
