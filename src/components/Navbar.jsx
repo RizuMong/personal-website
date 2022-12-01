@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar sticky top-1 bg-white">
+    <nav className="navbar sticky top-0 bg-white">
       <div className="navbar-start ml-0 sm:ml-0 md:ml-2 lg:ml-7 xl:ml-16">
         <div className="dropdown">
           <label

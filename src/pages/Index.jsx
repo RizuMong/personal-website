@@ -20,7 +20,7 @@ const Index = () => {
   return (
     <>
       <motion.div
-        className="h-1 bg-primary origin-[0%] top-0 left-0 right-0 fixed"
+        className="h-1 bg-primary origin-[0%] top-[64px] left-0 right-0 fixed"
         style={{ scaleX }}
       />
 
