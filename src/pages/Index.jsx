@@ -5,18 +5,23 @@ import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import CardProject from "../components/CardProject";
 
-import { motion, useScroll } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 import { data } from "../assets/data/project";
 
 const Index = () => {
   const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
 
   return (
     <>
       <motion.div
         className="h-1 bg-primary origin-[0%] top-0 left-0 right-0 fixed"
-        style={{ scaleX: scrollYProgress }}
+        style={{ scaleX }}
       />
 
       <Layout>
