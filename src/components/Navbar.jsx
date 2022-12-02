@@ -32,9 +32,11 @@ const Navbar = () => {
             <li className="font-medium pl-3 py-2 text-base text-secondary hover:bg-slate-100">
               Home
             </li>
-            <li className="font-medium pl-3 py-2 text-base text-secondary hover:bg-slate-100">
-              Project
-            </li>
+            <a href="#project">
+              <li className="font-medium pl-3 py-2 text-base text-secondary hover:bg-slate-100">
+                Project
+              </li>
+            </a>
             <li className="font-medium pl-3 py-2 text-base text-secondary hover:bg-slate-100">
               Services
             </li>
