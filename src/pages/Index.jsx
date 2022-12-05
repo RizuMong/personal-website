@@ -9,6 +9,10 @@ import { motion, useScroll, useSpring } from "framer-motion";
 
 import { data } from "../assets/data/project";
 
+import bg_service_1 from "../assets/img/service_1.png";
+import icon_service from "../assets/icon_service.svg";
+import icon_fe from "../assets/icon_frontend.svg";
+
 const Index = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -49,6 +53,90 @@ const Index = () => {
         <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl mx-auto block mt-5 transition md:mt-12 lg:mt-14 xl:mt-14 hover:scale-110">
           All Projects
         </button>
+
+        <header
+          id="services"
+          className="font-bold text-2xl md:text-2xl lg:text-3xl xl:text-3xl text-secondary text-center mt-32 mb-20 hover:animate-pulse"
+        >
+          Solving problem <br />{" "}
+          <span className="underline decoration-4 underline-offset-8 decoration-primary">
+            through the services
+          </span>
+        </header>
+        <div className="grid px-[54px] lg:px-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-5 lg:gap-8">
+          <div className="overflow-hidden mb-10 md:mb-0 rounded-2xl bg-[url('../assets/img/service_1.svg')] bg-cover w-80 h-72">
+            <div className="pl-9 pt-14">
+              <img src={icon_fe} alt="Icon Frontend" />
+              <h5 className="text-white font-bold text-2xl mt-4 underline decoration-2 underline-offset-2 decoration-primary">
+                Frontend Developer
+              </h5>
+              <div className="flex gap-[10px] mt-6">
+                <img src={icon_service} alt="Icon Service" />
+                <p className="text-white font-semibold text-sm">
+                  React & Next JS
+                </p>
+              </div>
+              <div className="flex gap-[10px] mt-3">
+                <img src={icon_service} alt="Icon Service" />
+                <p className="text-white font-semibold text-sm">
+                  Bootstrap & Tailwind CSS
+                </p>
+              </div>
+              <div className="flex gap-[10px] mt-3">
+                <img src={icon_service} alt="Icon Service" />
+                <p className="text-white font-semibold text-sm">And More</p>
+              </div>
+            </div>
+          </div>
+          <div className="overflow-hidden mb-10 rounded-2xl bg-[url('../assets/img/service_1.svg')] bg-cover w-80 h-72">
+            <div className="pl-9 pt-14">
+              <img src={icon_fe} alt="Icon Frontend" />
+              <h5 className="text-white font-bold text-2xl mt-4 underline decoration-2 underline-offset-2 decoration-primary">
+                Frontend Developer
+              </h5>
+              <div className="flex gap-[10px] mt-6">
+                <img src={icon_service} alt="Icon Service" />
+                <p className="text-white font-semibold text-sm">
+                  React & Next JS
+                </p>
+              </div>
+              <div className="flex gap-[10px] mt-3">
+                <img src={icon_service} alt="Icon Service" />
+                <p className="text-white font-semibold text-sm">
+                  Bootstrap & Tailwind CSS
+                </p>
+              </div>
+              <div className="flex gap-[10px] mt-3">
+                <img src={icon_service} alt="Icon Service" />
+                <p className="text-white font-semibold text-sm">And More</p>
+              </div>
+            </div>
+          </div>
+          <div className="overflow-hidden md:ml-[166px] lg:ml-0 mb-10 rounded-2xl bg-[url('../assets/img/service_1.svg')] bg-cover w-80 h-72">
+            <div className="pl-9 pt-14">
+              <img src={icon_fe} alt="Icon Frontend" />
+              <h5 className="text-white font-bold text-2xl mt-4 underline decoration-2 underline-offset-2 decoration-primary">
+                Frontend Developer
+              </h5>
+              <div className="flex gap-[10px] mt-6">
+                <img src={icon_service} alt="Icon Service" />
+                <p className="text-white font-semibold text-sm">
+                  React & Next JS
+                </p>
+              </div>
+              <div className="flex gap-[10px] mt-3">
+                <img src={icon_service} alt="Icon Service" />
+                <p className="text-white font-semibold text-sm">
+                  Bootstrap & Tailwind CSS
+                </p>
+              </div>
+              <div className="flex gap-[10px] mt-3">
+                <img src={icon_service} alt="Icon Service" />
+                <p className="text-white font-semibold text-sm">And More</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </Layout>
     </>
   );
