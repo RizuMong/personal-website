@@ -4,13 +4,13 @@ import imgHero from "../assets/img/img_hero.png";
 
 const Hero = () => {
   return (
-    <section className="grid lg:grid-cols-2 md:grid-cols-2 mt-10 md:mt-14 lg:mt-20 xl:mt-20 place-items-center items-center">
+    <section className="container px-1 md:px-0 grid lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 mt-10 md:mt-14 lg:mt-20 xl:mt-20 place-items-center items-center">
       <img
         className="w-[300px] mb-10 md:hidden lg:hidden xl:hidden"
         src={imgHero}
         alt="Image Hero"
       />
-      <div className="ml-4 md:ml-8 lg:ml-24 xl:ml-36">
+      <div className="xl:col-span-2 ml-4 md:ml-8 lg:ml-24 xl:ml-36">
         <h2 className="font-extrabold text-secondary text-2xl md:text-2xl lg:text-[28px] xl:text-4xl selection:bg-orange-400">
           Hi! I’m Rizki Haddi Prayoga. <br /> A{" "}
           <span className="underline decoration-4 underline-offset-4 decoration-primary">
@@ -19,7 +19,7 @@ const Hero = () => {
         </h2>
         <p className="font-medium text-sm md:text-xs lg:text-sm xl:text-lg text-[#666666] mt-7 mb-12 selection:bg-orange-400 selection:text-white">
           I’m also a UI designer and general doodler with a keen eye for
-          creating engaging UI, bringing products to life.
+          creating engaging UI & bringing products to life.
         </p>
         <div className="flex">
           <a href="mailto:rizkihaddiprayoga@gmail.com">

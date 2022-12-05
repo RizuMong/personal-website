@@ -35,7 +35,7 @@ const Index = () => {
             my project.
           </span>
         </header>
-        <div className="grid md:grid-cols-3 grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:mx-8 lg:mx-20 xl:mx-28 md:gap-6 lg:gap-9 justify-items-center">
+        <div className="px-4 md:px-6 lg:px-20 grid md:grid-cols-3 grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:gap-6 lg:gap-9 justify-items-center xl:justify-center">
           {data.map((project) => (
             <CardProject
               key={project.id}
