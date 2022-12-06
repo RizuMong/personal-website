@@ -64,7 +64,7 @@ const Index = () => {
             through the services
           </span>
         </header>
-        <div className="mx-auto min-[375px]:px-7 min-[425px]:px-[53px] sm:px-12 sm:flex sm:flex-wrap sm:gap-8 sm:justify-evenly">
+        <div className="mx-auto min-[375px]:px-7 min-[390px]:px-[38px] min-[400px]:px-[50px] min-[425px]:px-[53px] sm:px-12 sm:flex sm:flex-wrap sm:gap-8 sm:justify-evenly">
           <div className="bg-[url('../assets/img/service_1.png')] overflow-hidden mb-10 sm:mb-0 rounded-2xl bg-cover w-80 h-72">
             <div className="pl-9 pt-14">
               <img src={icon_fe} alt="Icon Frontend" />
