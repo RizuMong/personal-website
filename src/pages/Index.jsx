@@ -9,9 +9,10 @@ import { motion, useScroll, useSpring } from "framer-motion";
 
 import { data } from "../assets/data/project";
 
-import bg_service_1 from "../assets/img/service_1.png";
 import icon_service from "../assets/icon_service.svg";
 import icon_fe from "../assets/icon_frontend.svg";
+import icon_ui from "../assets/icon_ui.svg";
+import icon_more from "../assets/icon_smile.svg";
 
 const Index = () => {
   const { scrollYProgress } = useScroll();
@@ -63,8 +64,8 @@ const Index = () => {
             through the services
           </span>
         </header>
-        <div className="container mx-auto min-[375px]:px-7 min-[425px]:px-[53px] sm:px-12 sm:flex sm:flex-wrap sm:gap-8 sm:justify-evenly">
-          <div className="bg-[url('../assets/img/service_1.svg')] overflow-hidden mb-10 sm:mb-0 rounded-2xl bg-cover w-80 h-72">
+        <div className="mx-auto min-[375px]:px-7 min-[425px]:px-[53px] sm:px-12 sm:flex sm:flex-wrap sm:gap-8 sm:justify-evenly">
+          <div className="bg-[url('../assets/img/service_1.png')] overflow-hidden mb-10 sm:mb-0 rounded-2xl bg-cover w-80 h-72">
             <div className="pl-9 pt-14">
               <img src={icon_fe} alt="Icon Frontend" />
               <h5 className="text-white font-bold text-2xl mt-4 underline decoration-2 underline-offset-2 decoration-primary">
@@ -88,22 +89,20 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[url('../assets/img/service_1.svg')] overflow-hidden mb-10 sm:mb-0 rounded-2xl bg-cover w-80 h-72">
+          <div className="bg-[url('../assets/img/service_2.png')] overflow-hidden mb-10 sm:mb-0 rounded-2xl bg-cover w-80 h-72">
             <div className="pl-9 pt-14">
-              <img src={icon_fe} alt="Icon Frontend" />
+              <img src={icon_ui} alt="Icon Frontend" />
               <h5 className="text-white font-bold text-2xl mt-4 underline decoration-2 underline-offset-2 decoration-primary">
-                Frontend Developer
+                UI Designerr
               </h5>
               <div className="flex gap-[10px] mt-6">
                 <img src={icon_service} alt="Icon Service" />
-                <p className="text-white font-semibold text-sm">
-                  React & Next JS
-                </p>
+                <p className="text-white font-semibold text-sm">Figma</p>
               </div>
               <div className="flex gap-[10px] mt-3">
                 <img src={icon_service} alt="Icon Service" />
                 <p className="text-white font-semibold text-sm">
-                  Bootstrap & Tailwind CSS
+                  Miro & Whimsical
                 </p>
               </div>
               <div className="flex gap-[10px] mt-3">
@@ -112,22 +111,20 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[url('../assets/img/service_1.svg')] overflow-hidden mb-10 sm:mb-0 rounded-2xl bg-cover w-80 h-72">
+          <div className="bg-[url('../assets/img/service_3.png')] overflow-hidden mb-10 sm:mb-0 rounded-2xl bg-cover w-80 h-72">
             <div className="pl-9 pt-14">
-              <img src={icon_fe} alt="Icon Frontend" />
+              <img src={icon_more} alt="Icon Frontend" />
               <h5 className="text-white font-bold text-2xl mt-4 underline decoration-2 underline-offset-2 decoration-primary">
-                Frontend Developer
+                Others
               </h5>
               <div className="flex gap-[10px] mt-6">
                 <img src={icon_service} alt="Icon Service" />
-                <p className="text-white font-semibold text-sm">
-                  React & Next JS
-                </p>
+                <p className="text-white font-semibold text-sm">Algorithms</p>
               </div>
               <div className="flex gap-[10px] mt-3">
                 <img src={icon_service} alt="Icon Service" />
                 <p className="text-white font-semibold text-sm">
-                  Bootstrap & Tailwind CSS
+                  Problem Solving
                 </p>
               </div>
               <div className="flex gap-[10px] mt-3">
