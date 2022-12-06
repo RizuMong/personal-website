@@ -4,15 +4,19 @@ import { WithRouter } from "../utils/Navigation";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import CardProject from "../components/CardProject";
+import CardTestimonial from "../components/CardTestimonial";
 
 import { motion, useScroll, useSpring } from "framer-motion";
 
 import { data } from "../assets/data/project";
+import { testimonial } from "../assets/data/testimonial";
 
 import icon_service from "../assets/icon_service.svg";
 import icon_fe from "../assets/icon_frontend.svg";
 import icon_ui from "../assets/icon_ui.svg";
 import icon_more from "../assets/icon_smile.svg";
+import arrow_left from "../assets/arrow_left.svg";
+import arrow_right from "../assets/arrow_right.svg";
 
 const Index = () => {
   const { scrollYProgress } = useScroll();
@@ -21,6 +25,9 @@ const Index = () => {
     damping: 30,
     restDelta: 0.001,
   });
+
+  console.log(testimonial);
+  console.log(data);
 
   return (
     <>
@@ -132,6 +139,43 @@ const Index = () => {
                 <p className="text-white font-semibold text-sm">And More</p>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Section Testimonial */}
+        <div className="mt-32 bg-secondary py-20">
+          <div className="mb-16 flex items-center justify-between">
+            <div>
+              <header
+                id="testimonial"
+                className="pl-7 md:pl-32 font-bold text-2xl md:text-2xl lg:text-3xl xl:text-3xl underline decoration-4 underline-offset-8 decoration-primary text-white hover:animate-pulse"
+              >
+                What my clients say
+              </header>
+              <p className="pl-7 md:pl-32 pt-5 font-normal text-sm text-[#E6E6E6]">
+                I seek to push the limits of creativity to create highly
+                engaging and user-friendly
+              </p>
+            </div>
+            <div className="flex gap-6 pr-32">
+              <button className="hover:scale-110 transition">
+                <img className="w-10" src={arrow_left} alt="Arrow Left" />
+              </button>
+              <button className="hover:scale-110 transition">
+                <img className="w-10" src={arrow_right} alt="Arrow Right" />
+              </button>
+            </div>
+          </div>
+          <div className="px-4 md:px-6 lg:px-20 grid md:grid-cols-3 grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:gap-6 lg:gap-9 justify-items-center xl:justify-center">
+            {testimonial.map((data) => {
+              <CardTestimonial
+                key={data.id}
+                content={data.content}
+                src={data.img}
+                name={data.name}
+                position={data.position}
+              />
+            })}
           </div>
         </div>
       </Layout>
