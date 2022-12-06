@@ -63,8 +63,8 @@ const Index = () => {
             through the services
           </span>
         </header>
-        <div className="grid px-[54px] lg:px-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-5 lg:gap-8">
-          <div className="overflow-hidden mb-10 md:mb-0 rounded-2xl bg-[url('../assets/img/service_1.svg')] bg-cover w-80 h-72">
+        <div className="container mx-auto min-[375px]:px-7 min-[425px]:px-[53px] sm:px-12 sm:flex sm:flex-wrap sm:gap-8 sm:justify-evenly">
+          <div className="bg-[url('../assets/img/service_1.svg')] overflow-hidden mb-10 sm:mb-0 rounded-2xl bg-cover w-80 h-72">
             <div className="pl-9 pt-14">
               <img src={icon_fe} alt="Icon Frontend" />
               <h5 className="text-white font-bold text-2xl mt-4 underline decoration-2 underline-offset-2 decoration-primary">
@@ -88,7 +88,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="overflow-hidden mb-10 rounded-2xl bg-[url('../assets/img/service_1.svg')] bg-cover w-80 h-72">
+          <div className="bg-[url('../assets/img/service_1.svg')] overflow-hidden mb-10 sm:mb-0 rounded-2xl bg-cover w-80 h-72">
             <div className="pl-9 pt-14">
               <img src={icon_fe} alt="Icon Frontend" />
               <h5 className="text-white font-bold text-2xl mt-4 underline decoration-2 underline-offset-2 decoration-primary">
@@ -112,7 +112,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="overflow-hidden md:ml-[166px] lg:ml-0 mb-10 rounded-2xl bg-[url('../assets/img/service_1.svg')] bg-cover w-80 h-72">
+          <div className="bg-[url('../assets/img/service_1.svg')] overflow-hidden mb-10 sm:mb-0 rounded-2xl bg-cover w-80 h-72">
             <div className="pl-9 pt-14">
               <img src={icon_fe} alt="Icon Frontend" />
               <h5 className="text-white font-bold text-2xl mt-4 underline decoration-2 underline-offset-2 decoration-primary">
