@@ -7,7 +7,7 @@ import Instagram from "../assets/instagram.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary w-full mt-28">
+    <footer className="bg-secondary w-full mt-64">
       <div className="ml-4 sm:ml-4 md:ml-7 lg:ml-12 xl:ml-20 pt-10 pb-16">
         <h3 className="font-bold text-2xl text-primary selection:bg-orange-400 selection:text-white">
           Get in touch!

@@ -38,6 +38,8 @@ const Index = () => {
 
       <Layout>
         <Hero />
+
+        {/* Section Projects */}
         <header
           id="project"
           className="font-bold text-2xl md:text-2xl lg:text-3xl xl:text-3xl text-secondary text-center mt-52 mb-14 hover:animate-pulse"
@@ -62,6 +64,7 @@ const Index = () => {
           All Projects
         </button>
 
+        {/* Section Services */}
         <header
           id="service"
           className="font-bold text-2xl md:text-2xl lg:text-3xl xl:text-3xl text-secondary text-center mt-48 mb-20 hover:animate-pulse"
@@ -176,6 +179,23 @@ const Index = () => {
                 position={data.position}
               />;
             })}
+          </div>
+        </div>
+
+        {/* Last CTA */}
+        <div className="bg-[url('../assets/img/img_cta.svg')] mx-auto mt-40 overflow-hidden sm:mb-0 rounded-2xl bg-cover h-64 w-[1200px]">
+          <div className="py-[50px]">
+            <header className="font-bold text-2xl md:text-2xl lg:text-3xl xl:text-3xl text-white underline decoration-4 underline-offset-8 decoration-primary text-center hover:animate-pulse">
+              Have a project? Let's talk
+            </header>
+            <p className="font-medium text-sm text-[#E6E6E6] mt-4 text-center">
+              Let's collaborate, and I'll do my best to assist you.
+            </p>
+            <a href="mailto:rizkihaddiprayoga@gmail.com">
+              <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl mx-auto mt-9 block transition hover:scale-110">
+                Contact Me
+              </button>
+            </a>
           </div>
         </div>
       </Layout>
