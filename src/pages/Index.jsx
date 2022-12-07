@@ -1,5 +1,6 @@
 import React from "react";
 import { WithRouter } from "../utils/Navigation";
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
@@ -31,6 +32,11 @@ const Index = () => {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Home | Rizki Haddi Prayoga</title>
+      </Helmet>
+
       <motion.div
         className="h-1 bg-primary origin-[0%] top-[64px] left-0 right-0 fixed"
         style={{ scaleX }}
