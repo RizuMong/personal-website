@@ -183,7 +183,7 @@ const Index = () => {
         </div>
 
         {/* Last CTA */}
-        <div className="bg-[url('../assets/img/img_cta.svg')] mx-auto mt-40 overflow-hidden sm:mb-0 rounded-2xl bg-cover h-64 w-[1200px]">
+        <div className="container bg-[url('../assets/img/img_cta.svg')] mx-auto mt-40 overflow-hidden sm:mb-0 rounded-2xl bg-cover h-64 md:w-[720px] lg:w-[860px] xl:w-[1200px]">
           <div className="py-[50px]">
             <header className="font-bold text-2xl md:text-2xl lg:text-3xl xl:text-3xl text-white underline decoration-4 underline-offset-8 decoration-primary text-center hover:animate-pulse">
               Have a project? Let's talk
