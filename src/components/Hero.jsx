@@ -4,7 +4,7 @@ import imgHero from "../assets/img/img_hero.png";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto ml-0 xl:ml-10 px-1 md:px-0 grid lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-2 mt-10 md:mt-14 lg:mt-32 xl:mt-32 place-items-center items-center">
+    <section className="container mx-auto px-1 md:px-0 grid lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-2 mt-10 md:mt-14 lg:mt-32 xl:mt-32 place-items-center items-center">
       <img
         className="w-[300px] mb-10 md:hidden lg:hidden xl:hidden"
         src={imgHero}
