@@ -40,7 +40,7 @@ const Index = () => {
         <Hero />
         <header
           id="project"
-          className="font-bold text-2xl md:text-2xl lg:text-3xl xl:text-3xl text-secondary text-center mt-28 mb-14 hover:animate-pulse"
+          className="font-bold text-2xl md:text-2xl lg:text-3xl xl:text-3xl text-secondary text-center mt-52 mb-14 hover:animate-pulse"
         >
           Let’s take a look at <br />{" "}
           <span className="underline decoration-4 underline-offset-8 decoration-primary">
@@ -63,8 +63,8 @@ const Index = () => {
         </button>
 
         <header
-          id="services"
-          className="font-bold text-2xl md:text-2xl lg:text-3xl xl:text-3xl text-secondary text-center mt-32 mb-20 hover:animate-pulse"
+          id="service"
+          className="font-bold text-2xl md:text-2xl lg:text-3xl xl:text-3xl text-secondary text-center mt-48 mb-20 hover:animate-pulse"
         >
           Solving problem <br />{" "}
           <span className="underline decoration-4 underline-offset-8 decoration-primary">
@@ -143,8 +143,8 @@ const Index = () => {
         </div>
 
         {/* Section Testimonial */}
-        <div className="mt-32 bg-secondary py-20">
-          <div className="mb-16 flex items-center justify-between">
+        <div className="mt-48 bg-secondary py-20">
+          <div className="mb-16 block md:flex items-center justify-between">
             <div>
               <header
                 id="testimonial"
@@ -157,7 +157,7 @@ const Index = () => {
                 engaging and user-friendly
               </p>
             </div>
-            <div className="flex gap-6 pr-32">
+            <div className="flex gap-6 pr-32 pl-6 pt-6 md:pl-0 md:pt-0">
               <button className="hover:scale-110 transition">
                 <img className="w-10" src={arrow_left} alt="Arrow Left" />
               </button>
@@ -174,7 +174,7 @@ const Index = () => {
                 src={data.img}
                 name={data.name}
                 position={data.position}
-              />
+              />;
             })}
           </div>
         </div>

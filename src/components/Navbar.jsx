@@ -58,9 +58,11 @@ const Navbar = () => {
               Project
             </li>
           </a>
-          <li className="font-semibold text-base text-secondary transition hover:text-primary hover:scale-105 cursor-pointer">
-            Services
-          </li>
+          <a href="#service">
+            <li className="font-semibold text-base text-secondary transition hover:text-primary hover:scale-105 cursor-pointer">
+              Services
+            </li>
+          </a>
         </ul>
       </div>
       <div className="navbar-end mr-2 sm:mr-4 md:mr-7 lg:mr-12 xl:mr-20">

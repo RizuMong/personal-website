@@ -4,13 +4,13 @@ import imgHero from "../assets/img/img_hero.png";
 
 const Hero = () => {
   return (
-    <section className="container px-1 md:px-0 grid lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 mt-10 md:mt-14 lg:mt-20 xl:mt-20 place-items-center items-center">
+    <section className="container mx-auto ml-0 xl:ml-10 px-1 md:px-0 grid lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-2 mt-10 md:mt-14 lg:mt-32 xl:mt-32 place-items-center items-center">
       <img
         className="w-[300px] mb-10 md:hidden lg:hidden xl:hidden"
         src={imgHero}
         alt="Image Hero"
       />
-      <div className="xl:col-span-2 ml-4 md:ml-8 lg:ml-24 xl:ml-36">
+      <div className=" ml-4 md:ml-8 lg:ml-24 xl:ml-36">
         <h2 className="font-extrabold text-secondary text-2xl md:text-2xl lg:text-[28px] xl:text-4xl selection:bg-orange-400">
           Hi! I’m Rizki Haddi Prayoga. <br /> A{" "}
           <span className="underline decoration-4 underline-offset-4 decoration-primary">
