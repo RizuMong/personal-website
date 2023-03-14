@@ -16,7 +16,7 @@ export const testimonial = [
     name: "Abdul Rahman",
     position: "COO GunTour",
     content:
-      "I am truly amazed by the phenomenal job that Rizki did from start to finish! He was able to capture and create exactly what I wanted and even exceeded my expectations. The quality of his work was outstanding and very professional, and I am extremely happy with the end result. Thank you so much, Rizki, I highly recommend your services to anyone in need of exceptional design work!",
+      "Rizki exceeded my expectations and did an outstanding job. His work was of exceptional quality and very professional. I am extremely happy with the end result and highly recommend his services to anyone in need of exceptional design work!",
     img: img_testi_2,
   },
   {
