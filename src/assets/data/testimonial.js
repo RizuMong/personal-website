@@ -16,7 +16,7 @@ export const testimonial = [
     name: "Abdul Rahman",
     position: "COO GunTour",
     content:
-      "Rizki exceeded my expectations and did an outstanding job. His work was of exceptional quality and very professional. I am extremely happy with the end result and highly recommend his services to anyone in need of exceptional design work!",
+      "Rizki did an outstanding job exceeding my expectations. His work was exceptional and very professional. Highly recommended!",
     img: img_testi_2,
   },
   {
@@ -24,7 +24,7 @@ export const testimonial = [
     name: "Annisa Ramadhani",
     position: "COO Mentutor",
     content:
-      "Rizki did an outstanding job! He captured my vision perfectly and exceeded my expectations. His work was exceptional, and I highly recommend him to anyone in need of a talented and professional designer and developer.",
+      "Rizki exceeded my expectations by capturing my vision perfectly. His exceptional work as a designer and developer is highly recommended!",
     img: img_testi_3,
   },
 ];
