@@ -27,9 +27,6 @@ const Index = () => {
     restDelta: 0.001,
   });
 
-  console.log(testimonial);
-  console.log(data);
-
   return (
     <>
       <Helmet>
