@@ -46,14 +46,14 @@ const Footer = () => {
             <img
               className="w-6 transition hover:scale-125"
               src={Dribble}
-              alt="Icon Dribble"
+              alt="Icon Dribbble"
             />
           </a>
           <a href="https://www.instagram.com/rizu.design/" target="_blank">
             <img
               className="w-6 transition hover:scale-125"
               src={Instagram}
-              alt="Icon Dribble"
+              alt="Icon Instagram"
             />
           </a>
         </div>
