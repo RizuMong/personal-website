@@ -55,17 +55,19 @@ const Index = () => {
         <div className="px-4 md:px-6 lg:px-20 grid md:grid-cols-3 grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:gap-6 lg:gap-9 justify-items-center xl:justify-center">
           {data.map((project) => (
             <CardProject
-              key={project.id}
-              src={project.img}
-              title={project.title}
-              detail={project.detail}
-              link={project.link_project}
+              key={project?.id}
+              src={project?.img}
+              title={project?.title}
+              detail={project?.detail}
+              link={project?.link_project}
             />
           ))}
         </div>
-        <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl mx-auto block mt-5 transition md:mt-12 lg:mt-14 xl:mt-14 hover:scale-110">
-          All Projects
-        </button>
+        <a href="https://github.com/RizuMong" target="_blank">
+          <button className="bg-primary border border-primary text-white text-base font-medium py-2 px-6 rounded-xl mx-auto block mt-5 transition md:mt-12 lg:mt-14 xl:mt-14 hover:scale-110">
+            All Projects
+          </button>
+        </a>
 
         {/* Section Services */}
         <header
@@ -175,11 +177,11 @@ const Index = () => {
           <div className="px-4 md:px-6 lg:px-20 grid md:grid-cols-3 grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:gap-6 lg:gap-9 justify-items-center xl:justify-center">
             {testimonial.map((data) => (
               <CardTestimonial
-                key={data.id}
-                content={data.content}
-                src={data.img}
-                name={data.name}
-                position={data.position}
+                key={data?.id}
+                content={data?.content}
+                src={data?.img}
+                name={data?.name}
+                position={data?.position}
               />
             ))}
           </div>
