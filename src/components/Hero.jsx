@@ -28,7 +28,7 @@ const Hero = () => {
             </button>
           </a>
           <a
-            href="https://drive.google.com/file/d/1nkctyD-LuDY7EqCWGJKxzjReWlknfMxZ/view?usp=share_link"
+            href="https://drive.google.com/file/d/1d0WIuQ0LVFGvAK6oHBJnBHtzSg_Q2L3Q/view?usp=sharing"
             target="_blank"
             download
           >
