@@ -12,15 +12,14 @@ const Hero = () => {
         alt="Image Hero"
       />
       <div className="xl:col-span-4 ml-4 md:ml-8 lg:ml-24 xl:ml-36">
-        <h2 className="font-extrabold text-secondary text-2xl md:text-2xl lg:text-[28px] xl:text-4xl selection:bg-orange-400">
-          Hi! I’m Rizki Haddi Prayoga. <br /> A{" "}
+        <h2 className="font-bold text-secondary text-2xl md:text-2xl lg:text-[28px] xl:text-4xl selection:bg-orange-400">
+          Hi! I’m Rizki Haddi Prayoga. <br /> a{" "}
           <span className="underline decoration-4 underline-offset-4 decoration-primary">
             Designer & Developer.
           </span>
         </h2>
         <p className="font-medium text-sm md:text-xs lg:text-sm xl:text-lg text-[#666666] mt-7 mb-12 selection:bg-orange-400 selection:text-white">
-          I’m also a Webflow Engineer and general doodler with a keen eye for
-          creating engaging UI & bringing products to life.
+           I specialize in Webflow development and love bringing UI ideas to life with a creative touch.
         </p>
         <div className="flex">
           <a href="mailto:rizkihaddiprayoga@gmail.com">
@@ -40,7 +39,7 @@ const Hero = () => {
         </div>
       </div>
       <img
-        className="xl:col-span-3 md:w-64 lg:w-72 xl:w-80 hidden md:flex lg:flex xl:flex hover:animate-pulse rounded-full"
+        className="xl:col-span-3 md:w-64 lg:w-72 xl:w-80 hidden md:flex lg:flex xl:flex hover:animate-pulse rounded-full sm:rounded-full"
         src={imgHeroNew}
         alt="Image Hero"
       />

@@ -50,16 +50,16 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal gap-12">
-          <li className="font-semibold text-base text-secondary transition hover:text-primary hover:scale-105 cursor-pointer">
+          <li className="font-medium text-base text-secondary transition hover:text-primary hover:scale-105 cursor-pointer">
             Home
           </li>
           <a href="#project">
-            <li className="font-semibold text-base text-secondary transition hover:text-primary hover:scale-105 cursor-pointer">
+            <li className="font-medium text-base text-secondary transition hover:text-primary hover:scale-105 cursor-pointer">
               Project
             </li>
           </a>
           <a href="#service">
-            <li className="font-semibold text-base text-secondary transition hover:text-primary hover:scale-105 cursor-pointer">
+            <li className="font-medium text-base text-secondary transition hover:text-primary hover:scale-105 cursor-pointer">
               Services
             </li>
           </a>
@@ -67,7 +67,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end mr-2 sm:mr-4 md:mr-7 lg:mr-12 xl:mr-20">
         <a href="https://wa.me/6285797556102" target="_blank">
-          <button className="bg-white border border-primary text-primary text-base font-medium py-2 px-5 rounded-xl transition hover:scale-105">
+          <button className="bg-white border border-primary text-primary text-base font-semibold py-2 px-5 rounded-xl transition hover:scale-105">
             Contact Me
           </button>
         </a>

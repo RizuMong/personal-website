@@ -39,7 +39,7 @@ const Index = () => {
         style={{ scaleX }}
       />
 
-      <Layout>
+      <Layout >
         <Hero />
 
         {/* Section Projects */}
