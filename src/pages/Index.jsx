@@ -84,12 +84,12 @@ const Index = () => {
             <div className="pl-9 pt-14">
               <img src={icon_fe} alt="Icon Frontend" />
               <h5 className="text-white font-bold text-2xl mt-4 underline decoration-2 underline-offset-2 decoration-primary">
-                Frontend Developer
+                Developer
               </h5>
               <div className="flex gap-[10px] mt-6">
                 <img src={icon_service} alt="Icon Service" />
                 <p className="text-white font-semibold text-sm">
-                  React & Next JS
+                  React, Next JS, Webflow & Zapier
                 </p>
               </div>
               <div className="flex gap-[10px] mt-3">
@@ -108,7 +108,7 @@ const Index = () => {
             <div className="pl-9 pt-14">
               <img src={icon_ui} alt="Icon Frontend" />
               <h5 className="text-white font-bold text-2xl mt-4 underline decoration-2 underline-offset-2 decoration-primary">
-                UI Designerr
+                Designer
               </h5>
               <div className="flex gap-[10px] mt-6">
                 <img src={icon_service} alt="Icon Service" />
@@ -188,12 +188,12 @@ const Index = () => {
         </div>
 
         {/* Last CTA */}
-        <div className="container bg-[url('../assets/img/img_cta.svg')] mx-auto mt-40 overflow-hidden sm:mb-0 rounded-2xl bg-cover h-64 md:w-[720px] lg:w-[860px] xl:w-[1200px]">
+        <div className="container bg-[url('../assets/img/img_cta.svg')] w-80 mx-auto mt-28 overflow-hidden sm:mb-0 rounded-2xl bg-cover h-64 md:w-[720px] lg:w-[860px] xl:w-[1200px]">
           <div className="py-[50px]">
-            <header className="font-bold text-2xl md:text-2xl lg:text-3xl xl:text-3xl text-white underline decoration-4 underline-offset-8 decoration-primary text-center hover:animate-pulse">
+            <header className="font-bold text-xl md:text-2xl lg:text-3xl xl:text-3xl text-white underline decoration-4 underline-offset-8 decoration-primary text-center hover:animate-pulse">
               Have a project? Let's talk
             </header>
-            <p className="font-medium text-sm text-[#E6E6E6] mt-4 text-center">
+            <p className="font-medium text-xs md:text-sm text-[#E6E6E6] mt-4 text-center">
               Let's collaborate, and I'll do my best to assist you.
             </p>
             <a href="mailto:rizkihaddiprayoga@gmail.com">

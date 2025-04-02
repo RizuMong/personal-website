@@ -1,24 +1,25 @@
 import React from "react";
 
-import imgHero from "../assets/img/img_hero.png";
+// import imgHero from "../assets/img/img_hero.png";
+import imgHeroNew from "../assets/img/profile.jpg";
 
 const Hero = () => {
   return (
     <section className="container mx-auto px-1 md:px-0 grid lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-7 mt-10 md:mt-14 lg:mt-32 xl:mt-32 place-items-center items-center">
       <img
         className="w-[300px] mb-10 md:hidden lg:hidden xl:hidden"
-        src={imgHero}
+        src={imgHeroNew}
         alt="Image Hero"
       />
       <div className="xl:col-span-4 ml-4 md:ml-8 lg:ml-24 xl:ml-36">
         <h2 className="font-extrabold text-secondary text-2xl md:text-2xl lg:text-[28px] xl:text-4xl selection:bg-orange-400">
           Hi! I’m Rizki Haddi Prayoga. <br /> A{" "}
           <span className="underline decoration-4 underline-offset-4 decoration-primary">
-            Frontend Developer.
+            Designer & Developer.
           </span>
         </h2>
         <p className="font-medium text-sm md:text-xs lg:text-sm xl:text-lg text-[#666666] mt-7 mb-12 selection:bg-orange-400 selection:text-white">
-          I’m also a UI designer and general doodler with a keen eye for
+          I’m also a Webflow Engineer and general doodler with a keen eye for
           creating engaging UI & bringing products to life.
         </p>
         <div className="flex">
@@ -39,8 +40,8 @@ const Hero = () => {
         </div>
       </div>
       <img
-        className="xl:col-span-3 md:w-64 lg:w-72 xl:w-80 hidden md:flex lg:flex xl:flex hover:animate-pulse"
-        src={imgHero}
+        className="xl:col-span-3 md:w-64 lg:w-72 xl:w-80 hidden md:flex lg:flex xl:flex hover:animate-pulse rounded-full"
+        src={imgHeroNew}
         alt="Image Hero"
       />
     </section>
